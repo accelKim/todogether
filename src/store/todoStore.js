@@ -3,7 +3,7 @@ import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 export const getTodoList = createAsyncThunk(
     'todos/getTodoList', // 액션의 이름
     async (date) => {
-        let url = `http://localhost:5000/todoList`;
+        let url = `https://my-json-server.typicode.com/accelKim/todogether/todoList`;
         if (date) {
             url += `?dueDate=${date}`;
         }
