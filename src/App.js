@@ -15,7 +15,7 @@ function App() {
                 <Header />
                 <Routes>
                     <Route path="/" element={<Main />}></Route>
-                    <Route path="/Calendar" element={<CalendarPage />}></Route>
+                    <Route path="/calendar" element={<CalendarPage />}></Route>
                 </Routes>
                 <Footer />
             </div>
