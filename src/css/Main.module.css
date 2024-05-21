@@ -1,0 +1,32 @@
+.main {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.index {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.sortBtn {
+    order: -1;
+}
+.mainImgWrap {
+    width: 250px;
+    height: 250px;
+    margin: auto;
+}
+.mainImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.mainText {
+    position: relative;
+    bottom: 200px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}

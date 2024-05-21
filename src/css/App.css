@@ -1,0 +1,25 @@
+:root {
+    color: white;
+}
+.App {
+    
+    margin: 2rem auto;
+    height: calc(100vh - 4rem);
+    width: calc(100% - 2rem);
+    max-width: 500px;
+    background-color: #121212;
+    border-radius: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    color: white;
+}
+.mw {
+    
+    width: calc(100% - 2rem);
+    max-width: 450px;
+    margin: auto;
+    height: calc(100% - 5rem);
+}

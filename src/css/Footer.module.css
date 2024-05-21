@@ -1,0 +1,41 @@
+
+.ft {
+    display: flex;
+    justify-content: space-around;
+    background-color: #363636;
+    height: 100px;
+    position: relative;
+    padding: 1rem 0;
+}
+.ft a {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8rem;
+    gap: 0.5rem;
+
+}
+.ft a > i {
+    font-size: 1.5rem;
+}
+.ft button {
+    position: relative;
+    width: 64px;
+    height: 64px;
+    border-radius: 32px;
+    border: none;
+    background-color: #8687E7;
+    color: white;
+    font-size: 3rem;
+    top: -40px;
+    cursor: pointer;
+}
+.homeBtn {
+    background-color: white;
+    width: 150px;
+    height: 5px;
+    border-radius: 1rem;
+    position: absolute;
+    bottom: 0.5rem;
+}

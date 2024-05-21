@@ -1,0 +1,15 @@
+.listCards{
+    
+}
+.listCard {
+    display: flex;
+    gap: 0.5rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin: 1rem 0;
+}
+.pInfo{
+    display: flex;
+    gap: 1rem;
+}

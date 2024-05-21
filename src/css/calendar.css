@@ -1,0 +1,28 @@
+.react-calendar {
+    width: 100%;
+    margin: 2rem auto 0 auto;
+    border: 1px solid white;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+.react-calendar__navigation > * {
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    margin: 5px;
+}
+.react-calendar__month-view__days > * {
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+}
+.react-calendar__month-view__days__day--neighboringMonth {
+    background-color: gray;
+}
+.react-calendar__tile--now {
+    background-color: white;
+    color: black;
+}
+.react-calendar__tile--active {
+    background-color: rgb(110, 110, 255)
+}
