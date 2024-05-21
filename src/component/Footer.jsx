@@ -13,7 +13,7 @@ const Footer = () => {
                 <a href="/">
                     <i class="fa-solid fa-house"></i>Index
                 </a>
-                <a href="/calendar">
+                <a href="/Calendar">
                     <i class="fa-solid fa-calendar-days"></i>Calendar
                 </a>
                 <button onClick={handleShow}>+</button>
